@@ -102,7 +102,7 @@
 	height:auto;
 	display: flex;
 	flex-direction: row;
-	justify-content:space-around;
+	justify-content:space-between;
 	align-items: center;
 }
 .secao{
@@ -112,12 +112,15 @@
 	font-family: 'Montserrat', Arial;
 	color: white;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
 	
 }
+
 .icone-social{
 	height: auto;
 	width: 40px;
-	padding: 10px;
+/*	padding: 10px;*/
 }
 .footer{
 
