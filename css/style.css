@@ -1,11 +1,11 @@
-body{
-	padding: 0;
+*{
 	margin: 0;
-	width:100%;
+	padding: 0;
 }
 		/*topo*/
 .cabecalho{
 	display:flex;
+	flex-direction: row;
 	align-items: center;
 	text-align: center;
 	justify-content:space-around;
@@ -34,14 +34,6 @@ body{
 	align-items: center;
 }
 
-.icone-menu{
-	display:none;
-	height:auto;
-	width: 50px;
-	align-items: center;
-	justify-content: center;
-}
-
 .links {
 	color: white;
 	text-decoration: none;
@@ -52,6 +44,15 @@ body{
 
 .links:hover{
 	color:#1abc9c;
+}
+
+.icone-menu{
+	display:none;
+	height:auto;
+	margin-top: 45px;
+	width: 50px;
+	align-items: center;
+	justify-content: center;
 }
 
 		/*corpo*/
@@ -88,23 +89,14 @@ body{
 	flex-direction:row;
 	padding: 20px;
 	justify-content: center;
-
-
+	align-items: center;
 }
 
 .icones-portifolio{
+	width: 400px;
 	height: auto;
-	width: 450px;
+	margin: 20px;
 }
-
-.titulo{
-	text-align: center;
-	color:#34495e ;
-	font-size: 30px;
-	text-transform: uppercase;
-	font-family: Arial black;
-}
-
 .rodape{
 	background-color: #2c3e50;
 	height:auto;
