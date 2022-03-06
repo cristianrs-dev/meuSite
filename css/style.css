@@ -1,0 +1,138 @@
+body{
+	padding: 0;
+	margin: 0;
+	width:100%;
+}
+		/*topo*/
+.cabecalho{
+	display:flex;
+	align-items: center;
+	text-align: center;
+	justify-content:space-around;
+	height:auto;
+	padding: 20px;
+	background-color:#2c3e50;
+}
+.painel{
+	display: flex;
+	color: white;
+	font-size: large;
+	font-family: 'Montserrat', Arial black;
+	text-transform: uppercase;
+}
+.progresso{
+	margin-left:20px;
+}
+.barra-progresso{
+	width: 200px;
+}
+
+	/*Logotipo*/
+.habilidades{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icone-menu{
+	display:none;
+	height:auto;
+	width: 50px;
+	align-items: center;
+	justify-content: center;
+}
+
+.links {
+	color: white;
+	text-decoration: none;
+	font-family: 'Montserrat', Arial black;
+	margin: 10px;
+	text-transform: uppercase;
+}
+
+.links:hover{
+	color:#1abc9c;
+}
+
+		/*corpo*/
+.container{
+	background-color:#1abc9c;
+	height:500px;
+	padding:20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.foto {
+	height:auto;
+	width:300px;
+	border-radius: 50%;
+}
+.foto-perfil{
+	margin:auto;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.descricao{
+	color: white;
+	font-size: 30px;
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', Arial black;
+}
+.secoes{
+	display: flex;
+	flex-direction:row;
+	padding: 20px;
+	justify-content: center;
+
+
+}
+
+.icones-portifolio{
+	height: auto;
+	width: 450px;
+}
+
+.titulo{
+	text-align: center;
+	color:#34495e ;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: Arial black;
+}
+
+.rodape{
+	background-color: #2c3e50;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+}
+.secao{
+	/*border: 1px solid white;*/
+	margin: 10px;
+	padding: 20px;
+	font-family: 'Montserrat', Arial;
+	color: white;
+	text-align: center;
+	
+}
+.icone-social{
+	height: auto;
+	width: 40px;
+	padding: 10px;
+}
+.footer{
+
+	background-color:#1a252f;
+	height:auto;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Montserrat', Arial
+}

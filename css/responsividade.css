@@ -1,0 +1,72 @@
+@media screen and (max-width: 320px){
+   .cabecalho{
+        flex-direction:column;
+   }
+   .links{
+    display: none;
+}
+    .icone-menu{
+    display: inline;
+}   
+   
+   .foto{
+       width: 250px;
+       height: auto;
+   }
+    .secoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .icones-portifolio{
+        width: 300px;
+        margin-top:25px;
+        margin-bottom:25px ;
+    }
+    .rodape{
+        flex-direction: column;
+    }
+    .secao{
+        flex-direction: column;
+    }
+    .secao-redes{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 760px){
+  /* .cabecalho{
+        flex-direction: column;
+   }*/
+    .secoes{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .links{
+        display: none;
+    }
+    .icone-menu{
+        display: inline;
+    }
+    .rodape{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 960px){
+   /* .cabecalho{
+        flex-direction: column;
+    } */
+    .secoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .links{
+        display: none;
+    }
+    .icone-menu{
+        display: inline;
+    }
+    .rodape{
+        flex-direction: column;
+    }
+}
