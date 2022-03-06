@@ -62,10 +62,10 @@
     .icones-portifolio{
         width: 250px;
     }
-    .secao-localizacao{
+    .secao-localizacao,.secao-marca{
         display: none;
     }
-    .icone-localizacao{
+    .icone-localizacao,.marca-empresa{
         display: inline;
     }
 }

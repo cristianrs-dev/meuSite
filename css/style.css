@@ -102,7 +102,7 @@
 	height:auto;
 	display: flex;
 	flex-direction: row;
-	justify-content:space-between;
+	justify-content:center;
 	align-items: center;
 }
 .secao-localizacao,.secao-redes-sociais,.secao-marca{
@@ -123,9 +123,14 @@
 /*	padding: 10px;*/
 }
 .icone-localizacao{
-	/*display: none;*/
+	display: none;
 	height: auto;
 	width: 45px;
+}
+.marca-empresa{
+	height: auto;
+	width: 70px;
+	display: none;
 }
 .footer{
 
