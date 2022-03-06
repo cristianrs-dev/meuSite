@@ -122,8 +122,10 @@
 	width: 40px;
 /*	padding: 10px;*/
 }
-.localizacao{
+.icone-localizacao{
 	display: none;
+	height: auto;
+	width: 60px;
 }
 .footer{
 
