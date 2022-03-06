@@ -46,7 +46,7 @@
         width: 250px;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 370px){
     .cabecalho{
         flex-direction: column;
     }
@@ -61,6 +61,12 @@
     }
     .icones-portifolio{
         width: 250px;
+    }
+    .secao-localizacao{
+        display: none;
+    }
+    .localizacao{
+        display: inline;
     }
 }
 @media screen and (max-width: 260px){

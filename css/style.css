@@ -105,7 +105,7 @@
 	justify-content:space-between;
 	align-items: center;
 }
-.secao{
+.secao-localizacao,.secao-redes-sociais,.secao-marca{
 	/*border: 1px solid white;*/
 	margin: 10px;
 	padding: 20px;
@@ -121,6 +121,9 @@
 	height: auto;
 	width: 40px;
 /*	padding: 10px;*/
+}
+.localizacao{
+	display: none;
 }
 .footer{
 
