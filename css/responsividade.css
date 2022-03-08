@@ -25,6 +25,12 @@
     .secoes{
         flex-direction: column;
     }
+    .secao-localizacao,.secao-marca{
+        display: none;
+    }
+    .icone-localizacao,.marca-empresa{
+        display: inline;
+    }
     .icones-portifolio{
         width: 320px;
     }
@@ -42,6 +48,7 @@
     .secoes{
         flex-direction: column;
     }
+   
     .icones-portifolio{
         width: 250px;
     }

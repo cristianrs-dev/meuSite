@@ -102,13 +102,13 @@
 	height:auto;
 	display: flex;
 	flex-direction: row;
-	justify-content:center;
+	justify-content:space-around;
 	align-items: center;
 }
 .secao-localizacao,.secao-redes-sociais,.secao-marca{
 	/*border: 1px solid white;*/
 	margin: 10px;
-	padding: 20px;
+	/*padding: 20px;*/
 	font-family: 'Montserrat', Arial;
 	color: white;
 	text-align: center;
@@ -123,14 +123,14 @@
 /*	padding: 10px;*/
 }
 .icone-localizacao{
-	display: none;
+	/*display: none;*/
 	height: auto;
 	width: 45px;
 }
 .marca-empresa{
 	height: auto;
-	width: 70px;
-	display: none;
+	width: 40px;
+	/*display: none;*/
 }
 .footer{
 
