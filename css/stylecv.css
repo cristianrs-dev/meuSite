@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 70px;
+    background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 700px;
+    opacity: 1;
+}
+.card{
+    background-color:#0984e3;
+    height: 400px;
+    width: 70%;
+    color:#dfe6e9;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+}
+.profile{
+    margin: auto;
+}
+.profile-picture{
+    margin: auto;
+    height: auto;
+	width:300px;
+    justify-content: center;
+}
