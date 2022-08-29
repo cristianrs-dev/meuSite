@@ -1,0 +1,36 @@
+@media screen and (max-width:320px ){
+    header{
+        background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
+        background-size: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .contact{
+        display: none;
+    }
+}
+@media screen and (min-width:480px ) and (max-width:768px){
+    header{
+        background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
+        background-size: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .contact{
+        display: none;
+    }
+}
+@media screen and (min-width:769px ) and (max-width:960px){
+    header{
+        background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
+        background-size: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .contact{
+        display: none;
+    }
+}
