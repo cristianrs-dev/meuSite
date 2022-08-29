@@ -4,7 +4,7 @@
     .card{
      display: flex;
      flex-direction:column;
-     border-radius: 5px 5px 10px 10px;
+    
     }
     .name{
         font-size: 10px;
@@ -23,7 +23,6 @@
     .card{
      display: flex;
      flex-direction:column;
-     border-radius: 5px 5px 10px 10px;
     }
     .name{
         font-size: 15px;
@@ -43,7 +42,6 @@
     .card{
      display: flex;
      flex-direction:column;
-     border-radius: 5px 5px 10px 10px;
     }
     .name{
         font-size: 20px;
@@ -61,7 +59,6 @@
         .card{
          display: flex;
          flex-direction:column;
-         border-radius: 5px 5px 10px 10px;
         }
         .name{
             font-size: 20px;
