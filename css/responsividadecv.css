@@ -1,36 +1,39 @@
-@media screen and (max-width:320px ){
-    header{
-        background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
-        background-size: 100%;
-    }
-    .card{
-        flex-direction: column;
-    }
-    .contact{
-        display: none;
-    }
+
+@media screen and (min-width:320px )and (max-width:380){
+   .card{
+    display: flex;
+    flex-direction:column;
+   }
+
+   .picture{
+    height: 50px;
+    width: auto;
+   }
+   
 }
 @media screen and (min-width:480px ) and (max-width:768px){
-    header{
-        background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
-        background-size: 100%;
-    }
     .card{
-        flex-direction: column;
-    }
-    .contact{
+        display: flex;
+        flex-direction:column;
+       }
+       .contact{
         display: none;
-    }
+       }
+       
 }
-@media screen and (min-width:769px ) and (max-width:960px){
-    header{
-        background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
-        background-size: 100%;
-    }
+@media screen and (min-width:769px ) and (max-width:989px){
     .card{
-        flex-direction: column;
-    }
-    .contact{
-        display: none;
-    }
+        display: flex;
+        flex-direction:column;
+       }
+       
 }
+@media screen and (min-width:990px ) and (max-width:1200px){
+    .card{
+        display: flex;
+        flex-direction:column;
+       }
+
+   
+}
+

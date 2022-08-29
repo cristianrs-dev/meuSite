@@ -4,21 +4,19 @@
 }
 header{
     padding: 100px;
-    background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    height: 400px;
+    height: 100px;
 }
 .card{
-    background-color:#0984e3;
-    height: 500px;
+    background-color:#2d3436;
+    background: linear-gradient(#16a085,#1abc9c,#1e272e);
+    height: auto;
     width: 70%;
     color:#dfe6e9;
-    position: relative;
     overflow: hidden;
     margin:auto;
-    padding:20px;
+    padding:10px;
     display: flex;
     flex-direction: row;
     border-radius: 5px 5px 10px 10px;
@@ -26,33 +24,44 @@ header{
     
 }
 .profile{
-    padding:20px;
-    border: solid 1px black;
+    padding:10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
 .name{
-    border: 1px solid black;
-    margin-top:10px;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
+    
 }
 .formation{
-    border: 1px solid black;
+    font-family:'Segoe UI';
+    color: #ecf0f1;
+    text-transform: uppercase;
+    text-align: center;
     margin-top:10px;
     margin-bottom: 10px;
 }
 .contact{
-    border: 1px solid black;
-    margin-top:10px;
-    margin-bottom: 10px;
-}
-.social-media-icons{
-    border: 1px solid black;
+
     margin-top:10px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Segoe UI';
+}
+.social-media-icons{
+    margin-top:10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.icons{
+    height: 40px;
+    width: auto;
+    margin:10px;
 }
 
 .profile-picture{
