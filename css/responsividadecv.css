@@ -1,39 +1,97 @@
 
-@media screen and (min-width:320px )and (max-width:380){
-   .card{
-    display: flex;
-    flex-direction:column;
-   }
-
-   .picture{
-    height: 50px;
-    width: auto;
-   }
-   
-}
-@media screen and (min-width:480px ) and (max-width:768px){
+@media screen and (min-width:200px )and (max-width:300px){
+  
     .card{
-        display: flex;
-        flex-direction:column;
-       }
-       .contact{
+     display: flex;
+     flex-direction:column;
+     border-radius: 5px 5px 10px 10px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .contact{
         display: none;
-       }
-       
-}
-@media screen and (min-width:769px ) and (max-width:989px){
-    .card{
-        display: flex;
-        flex-direction:column;
-       }
-       
-}
-@media screen and (min-width:990px ) and (max-width:1200px){
-    .card{
-        display: flex;
-        flex-direction:column;
-       }
-
+    }
+    .icons{
+        width: 80px;
+        height: auto;
+    }
    
-}
+ }
+ @media screen and (min-width:320px )and (max-width:395px){
+  
+    .card{
+     display: flex;
+     flex-direction:column;
+     border-radius: 5px 5px 10px 10px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .contact{
+        display: none;
+    }
+    .icons{
+        width: 80px;
+        height: auto;
+    }
+   
+ }
 
+ @media screen and (min-width:412px )and (max-width:479px){
+  
+    .card{
+     display: flex;
+     flex-direction:column;
+     border-radius: 5px 5px 10px 10px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .contact{
+        display: none;
+    }
+    .icons{
+        width: 80px;
+        height: auto;
+    }
+} 
+    @media screen and (min-width:480px ) and (max-width:768px){
+  
+        .card{
+         display: flex;
+         flex-direction:column;
+         border-radius: 5px 5px 10px 10px;
+        }
+        .name{
+            font-size: 20px;
+        }
+        .formation{
+            font-size: 20px;
+        }
+        .contact{
+            display: none;
+        }
+        .icons{
+            width: 80px;
+            height: auto;
+        }
+    }
+    @media screen and (min-width:760px ) and (max-width:960px){
+  
+        .card{
+         display: flex;
+         flex-direction:column;
+        }
+        .name{
+            font-size: 20px;
+        }
+        .formation{
+            font-size: 20px;
+        }
+        
+        .icons{
+            width: 80px;
+            height: auto;
+        }
+    }
