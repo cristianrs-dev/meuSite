@@ -3,10 +3,7 @@
     padding: 0;
 }
 header{
-    padding: 100px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100px;
+    margin-top: 100px;
 }
 .card{
     background-color:#2d3436;
