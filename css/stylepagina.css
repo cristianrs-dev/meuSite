@@ -13,6 +13,13 @@ body{
     font-weight: bold;
     border-bottom:5px solid #ff793f ;
 }
+footer{
+    background-color:#1e272e ;
+    padding: 30px;
+}
+p{
+    text-align: justify;
+}
 .container{
     max-width: 888px;
     margin:auto;

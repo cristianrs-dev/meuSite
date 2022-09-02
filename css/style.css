@@ -8,23 +8,24 @@
 	flex-direction: row;
 	align-items: center;
 	text-align: center;
+	position: fixed;
 	justify-content:space-around;
-	height:auto;
-	padding: 20px;
+	height:100px;
+	width: 100%;
 	background-color:#2c3e50;
 }
 .painel{
 	display: flex;
 	color: white;
 	font-size: large;
-	font-family: 'Montserrat', Arial black;
+	font-family:'Balsamiq Sans', cursive;
 	text-transform: uppercase;
 }
 .progresso{
 	margin-left:20px;
 }
 .barra-progresso{
-	width: 200px;
+	width: 100px;
 }
 
 	/*Logotipo*/
@@ -37,7 +38,7 @@
 .links {
 	color: white;
 	text-decoration: none;
-	font-family: 'Montserrat', Arial black;
+	font-family:'Balsamiq Sans', cursive;
 	margin: 10px;
 	text-transform: uppercase;
 }
@@ -49,53 +50,126 @@
 .icone-menu{
 	display:none;
 	height:auto;
-	margin-top: 45px;
 	width: 50px;
 	align-items: center;
 	justify-content: center;
 }
 
 		/*corpo*/
-.container{
+.banner{
 	background-color:#1abc9c;
-	height:500px;
-	padding:20px;
+	height:700px;
 	display: flex;
-	flex-direction: column;
-}
-
-.foto {
-	height:auto;
-	width:300px;
-	border-radius: 50%;
-}
-.foto-perfil{
-	margin:auto;
-	display: flex;
-	text-align: center;
-	justify-content: center;
-}
-
-.descricao{
-	color: white;
-	font-size: 30px;
-	margin: auto;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Montserrat', Arial black;
-}
-.secoes{
-	display: flex;
-	flex-direction:row;
-	padding: 20px;
 	justify-content: center;
 	align-items: center;
 }
+.perfil{
+	color: white;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family:'Balsamiq Sans', cursive;	
+}
+.titulo{
+	text-align: center;
+}
 
-.icones-portifolio{
-	width: 400px;
-	height: auto;
+.formation{
+	margin-top: 20px;
+	font-size:25px;
+	text-align: center;
+	width: 300px;
+}
+.foto-perfil{
+	display: flex;
+	align-items: center;
+	
+}
+.foto {
+	width:auto;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.secoes{
+	display: flex;
+	flex-direction:row;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	justify-content: center;
+	align-items: center;
+}
+.section-html,.section-css,
+.section-js,.section-bootstrap{
 	margin: 20px;
+}
+.title-html{
+	font-family:'Balsamiq Sans', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	color:#fa502e ;
+	text-align: center;
+}
+.title-css{
+	font-family:'Balsamiq Sans', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	color:#2196f3;
+	text-align: center;
+}
+.title-js{
+	font-family:'Balsamiq Sans', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	color:#ffdf00;
+	text-align: center;
+}
+.title-bootstrap{
+	font-family:'Balsamiq Sans', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	color:#5e3b7f;
+	text-align: center;
+}
+
+
+.atalho{
+	width: 100px;
+	height:100px;
+	margin: 20px;
+}
+.html{
+	border-top: 2px solid #fa502e;
+	border-right:2px solid #fa502e;
+	border-left:10px solid #fd982c;
+	border-bottom:2px solid #fd982c;
+	margin: 10px;
+}
+.css{
+	border-top: 2px solid #2196f3;
+	border-right:2px solid #2196f3;
+	border-left:10px solid #2196f3;
+	border-bottom:2px solid #2196f3;
+	margin: 10px;
+}
+.js{
+	border-top: 2px solid #000000;
+	border-right:2px solid #000000;
+	border-left:10px solid #ffdf00;
+	border-bottom:2px solid #ffdf00 ;
+	margin: 10px;
+}
+.bootstrap{
+	border-top: 2px solid #a29bfe;
+	border-right:2px solid #a29bfe;
+	border-left:10px solid #5e3b7f;
+	border-bottom:2px solid #5e3b7f;
+	margin: 10px;
 }
 .rodape{
 	background-color: #2c3e50;

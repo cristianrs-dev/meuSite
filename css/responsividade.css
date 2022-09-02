@@ -1,95 +1,142 @@
-@media screen and (max-width: 960px){
-    .cabecalho{
-        flex-direction: column;
-    }
-    .links{
-        display: none;
-    }
-    .icone-menu{
-        display: inline;
-    }
-    .secoes{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 450px){
-    .cabecalho{
-        flex-direction: column;
-    }
-    .links{
-        display: none;
-    }
-    .icone-menu{
-        display: inline;
-    }
-    .secoes{
-        flex-direction: column;
-    }
-    .secao-localizacao,.secao-marca{
-        display: none;
-    }
-    .icone-localizacao,.marca-empresa{
-        display: inline;
-    }
-    .icones-portifolio{
-        width: 320px;
-    }
-}
-@media screen and (max-width: 400px){
-    .cabecalho{
-        flex-direction: column;
-    }
-    .links{
-        display: none;
-    }
-    .icone-menu{
-        display: inline;
-    }
-    .secoes{
-        flex-direction: column;
-    }
+@media screen and (min-width:200px) and (max-width:280px){
    
-    .icones-portifolio{
-        width: 250px;
-    }
-}
-@media screen and (max-width: 370px){
-    .cabecalho{
-        flex-direction: column;
-    }
-    .links{
+   .painel{
+    display: none;
+   }
+    .menu{
         display: none;
     }
     .icone-menu{
-        display: inline;
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+        height: 500px;    
+    }
+    .titulo{
+        margin-top: 30px;
+    }
+    .formation{
+        display: none;
+    }
+    .foto{
+        height: 90px;
+        width: 90px;
+        margin-top: 40px;
     }
     .secoes{
         flex-direction: column;
     }
-    .icones-portifolio{
-        width: 250px;
-    }
-    .secao-localizacao,.secao-marca{
-        display: none;
-    }
-    .icone-localizacao,.marca-empresa{
-        display: inline;
-    }
+    .section-html,.section-css,
+    .section-js,.section-bootstrap{
+	margin: 10px;
 }
-@media screen and (max-width: 260px){
-    .cabecalho{
+    .atalho{
+        margin-bottom:30px;
+    }
+    .rodape{
         flex-direction: column;
     }
-    .links{
-        display: none;
-    }
-    .icone-menu{
-        display: inline;
-    }
-    .secoes{
-        flex-direction: column;
-    }
-    .icones-portifolio{
-        width: 250px;
-    }
 }
+
+@media screen and (min-width:300px) and (max-width:480px){
+   
+     .menu{
+         display: none;
+     }
+     .icone-menu{
+         display: block;
+     }
+     .banner{
+         flex-direction: column;
+         height: 500px;    
+     }
+     .titulo{
+         margin-top: 30px;
+     }
+     .formation{
+         display: none;
+     }
+     .foto{
+        height: 150px;
+        width: auto;
+         margin-top: 40px;
+     }
+     .secoes{
+         flex-direction: column;
+     }
+     .atalho{
+         margin-bottom:30px;
+     }
+     .rodape{
+         flex-direction: column;
+     }
+ }
+
+ @media screen and (min-width:480px) and (max-width:768px){
+   
+     .menu{
+         display: none;
+     }
+     .icone-menu{
+         display: block;
+     }
+     .banner{
+         flex-direction: column;
+         height: 500px;    
+     }
+     .titulo{
+         margin-top: 30px;
+     }
+     .formation{
+         display: none;
+     }
+     .foto{
+        height: 150px;
+        width: auto;
+         margin-top: 40px;
+     }
+     .secoes{
+         flex-direction: column;
+     }
+     .atalho{
+         margin-bottom:30px;
+     }
+     .rodape{
+         flex-direction: column;
+     }
+ }
+ @media screen and (min-width:769px) and (max-width:960px){
+   
+   
+     .menu{
+         display: none;
+     }
+     .icone-menu{
+         display: block;
+     }
+     .banner{
+         flex-direction: column;
+         height: 500px;    
+     }
+     .titulo{
+         margin-top: 30px;
+     }
+     .formation{
+         display: none;
+     }
+     .foto{
+        height: 150px;
+        width: auto;
+         margin-top: 40px;
+     }
+     .secoes{
+         flex-direction: column;
+     }
+     .atalho{
+         margin-bottom:30px;
+     }
+     .rodape{
+         flex-direction: column;
+     }
+ }

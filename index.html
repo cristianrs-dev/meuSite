@@ -5,56 +5,86 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsividade.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
 		<title>Meu Portifólio</title>
 	</head>
 	<body>
-		<!--TOPO DO SITE-->
+	
 		<header class="cabecalho"> 
 			<div class="painel">
 					<div class="habilidades">
 						front-end<br>
-						back-end
+						<!--back-end-->
 					</div>
 					<div class="progresso">
-						<progress class="barra-progresso" value="20" max="100"></progress><br>
-						<progress class="barra-progresso" value="#" max="100"></progress><br>
+						<progress class="barra-progresso" value="5" min="1" max="100"></progress><br>
+						<!--<progress class="barra-progresso" value="5" min="1" max="100"></progress><br>-->
 					</div>
 			</div>
 					
 					<nav class="menu">
 							<a class="links" href="curriculo.html">Currículo</a>
-							<a class="links" href="#">Portifólio</a>
+							<a class="links" href=".secoes">Portifólio</a>
 							<a class="links" href="#">Contato</a>
 							<a class="links" href="#">Sobre</a>
 					</nav>
 					<img class="icone-menu" src="img/menu.png" alt="icone_menu">
 		</header>
-		<!--FIM TOPO DO SITE-->
+		
 
-		<!--SECAO PERFIL-->
-		<section class="container">
+	
+		<section class="banner">
+				<div class="perfil">
+					
+					<div class="titulo">
+						Front-End
+					</div>
+					<div>
+						<p class="formation">
+							Desenvolvedor Web
+						</p>
+					</div>
+				</div>
 				<div class="foto-perfil">
 					<img class="foto" src="img/cris.jpeg" alt="foto">
 				</div>
-				<div class="descricao">
-					<p>Front-End</p>
-				</div>
 		</section>
-		<!--FIM SECAO PERFIL-->
+		
+			<main class="secoes">
+				<section class="section-html">
+					<div class="title-html">html</div>
+						<div class="html">
+							<img class="atalho" src="img/html5.png" alt="">
+						</div>
+				</section>
+				
 
-		<!-- CATALOGO DE PROJETOS-->
-		<section class="catalogo">
-			<section class="secoes">
-				<div class="front-end">
-					<img class="icones-portifolio" src="img/front_end.jpg">
-				</div>
+				<section class="section-css">
+					<div class="title-css">css</div>
+						<div class="css" >
+							<img class="atalho" src="img/css-3.png">
+						</div>
+				</section>
+				
 
-				<div class="back-end">
-					<img class="icones-portifolio" src="img/back_end.jpg">
-				</div> 
-			</section>
-		</section>
-		<!--RODAPE-->
+				<section class="section-js">
+					<div class="title-js">JavaScript</div>
+						<div class="js">
+							<img class="atalho" src="img/js.png">
+						</div>
+				</section>
+				 
+				<section class="section-bootstrap">
+					<div class="title-bootstrap">bootstrap</div>
+						<div class="bootstrap">
+							<img class="atalho" src="img/bootstrap.png">
+						</div> 
+				</section>
+				
+			</main>
+	
 		<div class="rodape">
 			<div class="secao-localizacao"><br>
 				Cidade Nova<br>
