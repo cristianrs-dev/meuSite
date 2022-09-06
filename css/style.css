@@ -34,8 +34,18 @@
 	flex-direction: column;
 	align-items: center;
 }
+.menu{
+	background-color: #2c3e50;
+	margin-top: 40px;
+	padding: 10px;
+}
+.menu-mobile{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
 
-.links {
+.menu a{
 	color: white;
 	text-decoration: none;
 	font-family:'Balsamiq Sans', cursive;
@@ -43,7 +53,7 @@
 	text-transform: uppercase;
 }
 
-.links:hover{
+.menu a:hover{
 	color:#1abc9c;
 }
 
@@ -53,6 +63,11 @@
 	width: 50px;
 	align-items: center;
 	justify-content: center;
+}
+
+.show{
+	display:block;
+	position: absolute;
 }
 
 		/*corpo*/

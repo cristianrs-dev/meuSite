@@ -3,12 +3,26 @@
    .painel{
     display: none;
    }
-    .menu{
-        display: none;
-    }
+   .menu{
+    display:none;
+    
+    border: 1px solid black;
+}
     .icone-menu{
         display: block;
     }
+    
+    .menu a{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 15px;
+     }
+     .show{
+        display:inline-block;
+        flex-direction: column;
+     }
+
     .banner{
         flex-direction: column;
         height: 500px;    
@@ -40,13 +54,29 @@
 }
 
 @media screen and (min-width:300px) and (max-width:480px){
+   .menu-mobile{
+    margin-right:60px;
+   }
    
      .menu{
          display: none;
+        padding: 5px;
+         
      }
      .icone-menu{
          display: block;
      }
+     .menu a{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 15px;
+     }
+     .show{
+        display:inline-block;
+        flex-direction: column;
+     }
+
      .banner{
          flex-direction: column;
          height: 500px;    
@@ -73,14 +103,29 @@
      }
  }
 
- @media screen and (min-width:480px) and (max-width:768px){
-   
+ @media screen and (min-width:481px) and (max-width:768px){
+    .menu-mobile{
+        margin-right:60px;
+       }
      .menu{
          display: none;
      }
      .icone-menu{
          display: block;
      }
+     .menu a{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+     }
+     .show{
+        display:inline-block;
+        flex-direction: column;
+     }
+
+    
      .banner{
          flex-direction: column;
          height: 500px;    
@@ -107,14 +152,24 @@
      }
  }
  @media screen and (min-width:769px) and (max-width:960px){
-   
-   
-     .menu{
-         display: none;
-     }
+    .menu{
+        display: none;
+    }
      .icone-menu{
          display: block;
      }
+     .menu a{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+     }
+     .show{
+        display:inline-block;
+        flex-direction: column;
+     }
+
      .banner{
          flex-direction: column;
          height: 500px;    
