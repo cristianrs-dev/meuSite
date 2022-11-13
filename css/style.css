@@ -14,35 +14,18 @@
 	width: 100%;
 	background-color:#2c3e50;
 }
-.painel{
+.logo-topo{
 	display: flex;
-	color: white;
-	font-size: large;
-	font-family:'Balsamiq Sans', cursive;
-	text-transform: uppercase;
+	
 }
-.progresso{
-	margin-left:20px;
-}
-.barra-progresso{
-	width: 100px;
-}
-
-	/*Logotipo*/
-.habilidades{
-	display: flex;
-	flex-direction: column;
+.logo{
+	height:60px;
 	align-items: center;
+	justify-content: center;
 }
 .menu{
 	background-color: #2c3e50;
-	margin-top: 40px;
-	padding: 10px;
-}
-.menu-mobile{
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 20px;
+	
 }
 
 .menu a{

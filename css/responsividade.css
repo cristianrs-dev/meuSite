@@ -1,20 +1,21 @@
 @media screen and (min-width:200px) and (max-width:280px){
-   
-   .painel{
-    display: none;
-   }
-   .menu{
+ 
+    .logo{
+    height:45px;
+  }
+    .menu{
     display:none;
-    
     border: 1px solid black;
 }
     .icone-menu{
         display: block;
+        
     }
     
     .menu a{
         display: flex;
         flex-direction: column;
+        text-align: left;
         padding-top: 20px;
         font-size: 15px;
      }
@@ -54,9 +55,7 @@
 }
 
 @media screen and (min-width:300px) and (max-width:480px){
-   .menu-mobile{
-    margin-right:60px;
-   }
+  
    
      .menu{
          display: none;
@@ -104,9 +103,7 @@
  }
 
  @media screen and (min-width:481px) and (max-width:768px){
-    .menu-mobile{
-        margin-right:60px;
-       }
+    
      .menu{
          display: none;
      }
