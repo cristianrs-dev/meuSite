@@ -13,20 +13,34 @@
 	<body>
 	
 		<header class="cabecalho"> 
-		
+
+			<div class="cabecalho-desktop">
+
 				<div class="logo-topo">
 					<img class="logo" src="img/logo.png" alt="logotipo">
 				</div>
-				
-				<div class="menu-mobile">
-					<img onclick="openMenu()" class="icone-menu" src="img/menu.png" alt="icone_menu">
-					<nav id="myDropdown" class="menu">
-						<a href="cv/cvCris.pdf">Currículo</a>
-						<a href="#main">Portifólio</a>
-						<a href="#">Contato</a>
-						<a href="#">Sobre</a>
-					</nav>
-				</div>	
+
+				<img onclick="openMenu()" class="icone-menu" src="img/menu.png" alt="icone_menu">
+				<nav class="menu-desktop">
+					<a href="cv/cvCris.pdf">Currículo</a>
+					<a href="#main">Portifólio</a>
+					<a href="#">Contato</a>
+					<a href="#">Sobre</a>
+				</nav>
+
+			</div>
+			
+			
+				<nav id="mobile" class="menu-mobile">
+					<ul>
+						<li> <a href="cv/cvCris.pdf">Currículo</a> </li>
+						<li> <a href="#main">Portifólio</a> </li>
+						<li> <a href="#">Contato</a> </li>
+						<li> <a href="#">Sobre</a> </li>
+					</ul>
+				</nav>
+			
+
 		</header>
 		
 
