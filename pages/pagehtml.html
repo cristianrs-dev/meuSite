@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/responsividade.css">
+		<link rel="stylesheet" href="../pages/css/stye.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
@@ -14,19 +15,31 @@
 	
 		<header class="cabecalho"> 
 		
+			<div class="cabecalho-desktop">
+
 				<div class="logo-topo">
 					<img class="logo" src="../img/logo.png" alt="logotipo">
 				</div>
-				
-				<div class="menu-mobile">
-					<img onclick="openMenu()" class="icone-menu" src="../img/menu.png" alt="icone_menu">
-					<nav id="myDropdown" class="menu">
-						<a href="../index.html">Home</a>
-						<a href="#">Curriculo</a>
-						<a href="#">Contato</a>
-						<a href="#">Sobre</a>
-					</nav>
-				</div>	
+
+				<img onclick="openMenu()" class="icone-menu" src="../img/menu.png" alt="icone_menu">
+				<nav class="menu-desktop">
+					<a href="../index.html">Home</a>
+					<a href="#main">Portifólio</a>
+					<a href="#">Contato</a>
+					<a href="#">Sobre</a>
+				</nav>
+
+			</div>
+			
+			
+				<nav id="mobile" class="menu-mobile">
+					<ul>
+						<li> <a href="../index.html">Home</a> </li>
+						<li> <a href="#main">Portifólio</a> </li>
+						<li> <a href="#">Contato</a> </li>
+						<li> <a href="#">Sobre</a> </li>
+					</ul>
+				</nav>	
 		</header>
 		
 
@@ -48,12 +61,28 @@
 				</div>
 		</section>
 		
-			<main class="secoes">
+			<main class="galeria">
 				<section class="section-html">
 					<div class="title-html">html</div>
 						<div class="html">
-						<a href="https://eclipsecjp.github.io/Pagina-de-Conteudo/"> <img class="atalho" src="../img/html5.png" alt=""> </a>	
+						<img class="atalho" src="../img/html5.png" alt="">	
 						</div>
+				</section>
+
+				<section class="site">
+					<h3>meu portifolio</h3>
+				<a href="https://eclipsecjp.github.io/meuSite/"> <img class="home-page" src="../img/homePage.png" alt="home_page"> </a>	
+
+				</section>
+
+				<section class="post">
+					<h3>Post</h3>
+					<a href="https://eclipsecjp.github.io/Pagina-de-Conteudo/"> <img class="post-img" src="../img/post.png" alt=""> </a>
+				</section>
+
+				<section class="lading-page">
+					<h3>Landing Page</h3>
+					<a href="https://eclipsecjp.github.io/Landing-page/"> <img class="lading-img" src="../img/ladingPage.png" alt=""> </a>
 				</section>
 				
 			</main>

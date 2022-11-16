@@ -1,0 +1,10 @@
+.home-page,.post-img,.lading-img,.section-html{
+    width: 200px;
+    height:auto;
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
