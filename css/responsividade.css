@@ -1,7 +1,17 @@
+:root{
+    --font:20px;
+}
 @media screen and (min-width:200px) and (max-width:280px){
  
     .menu-desktop{
         display: none;
+    }
+    .menu-mobile a{
+        display: flex;
+        flex-direction: column;
+        font-size: var(--font);
+        text-align: left;
+        padding-left: 20px;
     }
     .icone-menu{
         display: block;
@@ -47,6 +57,13 @@
        .icone-menu{
         display: block;
        }
+       .menu-mobile a{
+        display: flex;
+        flex-direction: column;
+        font-size: var(--font);
+        text-align: left;
+        padding-left: 20px;
+        }
 
      .banner{
          flex-direction: column;
@@ -79,6 +96,13 @@
    .menu-desktop{
     display: none;
    }
+   .menu-mobile a{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font);
+    text-align: left;
+    padding-left: 20px;
+}
    .icone-menu{
     display: block;
    }
@@ -108,10 +132,19 @@
          flex-direction: column;
      }
  }
+
  @media screen and (min-width:769px) and (max-width:960px){
    
     .menu-desktop{
         display: none;
+    }
+
+    .menu-mobile a{
+        display: flex;
+        flex-direction: column;
+        font-size: var(--font);
+        text-align: left;
+        padding-left: 20px;
     }
     .icone-menu{
         display: block;
