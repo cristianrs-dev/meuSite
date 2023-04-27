@@ -1,4 +1,4 @@
-alert("site em construção");
+//alert("site em construção");
 
 function openMenu(){
     //document.getElementById("myDropdown").classList.toggle("show");
@@ -9,3 +9,4 @@ function openMenu(){
         menu.style.display='block'
     }
 }
+

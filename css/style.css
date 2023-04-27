@@ -115,6 +115,10 @@ a{
 	text-align: center;
 	width: 300px;
 }
+.sobre{
+	font-size: 20px;
+	display: none;
+}
 .foto-perfil{
 	display: flex;
 	align-items: center;
