@@ -2,9 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-a{
-	text-decoration: none;
-}
 
 		/*topo*/
 .cabecalho-desktop{
@@ -149,10 +146,7 @@ a{
 	margin: 20px;
 }
 
-.html,.js,.bootstrap{
-	display:inline-block;
-	margin-left: 100px;
-}
+
 .parteHtml,.parteJs,.parteBootstrap{
 	/*border:1px solid black;*/
 	display: flex;
@@ -244,6 +238,9 @@ a{
 	justify-content: center;
 	align-items: center;
 	
+}
+.secao-redes-sociais a{
+	text-decoration: none;
 }
 
 .icone-social{
