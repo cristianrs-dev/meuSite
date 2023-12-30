@@ -132,16 +132,18 @@
 	align-items: center;
 	background-color:#f1f2f6;
 }
+
 .section-html,.section-css,
 .section-js,.section-bootstrap{
 	/*display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;*/
 	/*margin: 20px;*/
-	padding-top: 20px;
+/*	padding-top: 20px;*/
 	
 	justify-content: center;
 }
+
 .card{
 	margin: 20px;
 }
@@ -194,32 +196,7 @@
 	height:100px;
 	
 }
-.html{
-	border-top: 2px solid #fa502e;
-	border-right:2px solid #fa502e;
-	border-left:10px solid #fd982c;
-	border-bottom:2px solid #fd982c;
-	
-}
-.css{
-	border-top: 2px solid #2196f3;
-	border-right:2px solid #2196f3;
-	border-left:10px solid #2196f3;
-	border-bottom:2px solid #2196f3;
-}
-.js{
-	border-top: 2px solid #000000;
-	border-right:2px solid #000000;
-	border-left:10px solid #ffdf00;
-	border-bottom:2px solid #ffdf00 ;
-}
-.bootstrap{
-	border-top: 2px solid #a29bfe;
-	border-right:2px solid #a29bfe;
-	border-left:10px solid #5e3b7f;
-	border-bottom:2px solid #5e3b7f;
-	
-}
+
 .rodape{
 	background-color: #2c3e50;
 	height:auto;
