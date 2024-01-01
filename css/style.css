@@ -259,3 +259,14 @@
 	padding: 20px;
 	font-family: 'Montserrat', Arial
 }
+
+
+.atalho-topo{
+	position:absolute;
+	right: 20px;
+}
+
+.button-topo{
+	height: auto;
+	width: 50px;
+}
