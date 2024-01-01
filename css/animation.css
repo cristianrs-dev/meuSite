@@ -5,3 +5,10 @@
         }
 }
 
+@keyframes tremer {
+    0%{margin-left: 0px;}
+    25%{margin-left: -4px;}
+    50%{margin-left: 0px;}
+    75%{margin-left: -4px;}
+    100%{margin-left: 0px;}
+}

@@ -240,6 +240,8 @@
 	height: 50px;
 	width: auto;
 	z-index: 1;
+	animation: tremer 0.8s infinite;
+	animation-fill-mode: both;
 	
 }
 .marca-empresa{
