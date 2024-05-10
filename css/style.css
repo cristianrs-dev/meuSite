@@ -1,37 +1,45 @@
+:root{
+	--font-primaria:nico moji;
+	--cor-primaria:#0669b8;
+	--cor-secundaria:#48a5f0;
+	--cor-texto-secundario:white;
+}
 *{
 	margin: 0;
 	padding: 0;
+	
+}
+@font-face {
+    font-family:var(--font-primaria); /* Nome da fonte */
+    src: url('../fonts/NicoMoji-Regular.ttf') format('NicoMoji');
+}
+.tagA{
+	text-decoration: none;
 }
 
 		/*topo*/
 .cabecalho-desktop{
-	/*position: fixed;*/
 	display: flex;
 	justify-content:space-around;
 	align-items: center;
 	height:100px;
 	width: 100%;
-	background-color:#2c3e50;
+	background-color:var(--cor-primaria)
 }
 
-.backEnd{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
 .logo{
-	height:60px;
-	align-items: center;
-	justify-content: center;
+	font-size: large;
+	text-align: center;
+	color: var(--cor-texto-secundario);
+	font-family: var(--font-primaria);
 }
 .menu{
-	background-color: #2c3e50;
+	background-color:var(--cor-primaria);
 	
 }
 .abas a{
 	color: #0984e3;
-	font-family:'Balsamiq Sans', cursive;
+	font-family: var(--font-primaria);
 	text-transform: uppercase;
 	list-style: none;
 }
@@ -41,22 +49,21 @@
 	margin-left: 5px;
 	text-decoration: none;
 	text-align: center;
-	font-family:'Balsamiq Sans', cursive;
+	font-family: var(--font-primaria);
 	text-transform: uppercase;
 }
 
 
 .menu-mobile{
 	display:none;
-	background-color: #2c3e50;
-	font-family:'Balsamiq Sans', cursive;
+	background-color:var(--cor-primaria);
+	font-family: var(--font-primaria);
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 5px;
 }
 
 .menu-mobile a{
-	background-color: #2c3e50;
 	color: white;
 	text-decoration: none;
 	
@@ -74,7 +81,6 @@
 }
 
 .icone-menu{
-	background-color: #2c3e50;
 	display: none;
 	height:auto;
 	width: 50px;
@@ -88,7 +94,7 @@
 	display: none;
 	padding: 15px;
 	text-decoration: none;
-	font-family:'Balsamiq Sans', cursive;
+	font-family: var(--font-primaria);
 	text-transform: uppercase;
 }
 
@@ -97,9 +103,8 @@
 	display:block;
 }
 
-		/*corpo*/
 .banner{
-	background-color:#1abc9c;
+	background-color: var(--cor-secundaria);
 	height:700px;
 	display: flex;
 	justify-content: center;
@@ -111,7 +116,7 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	font-family:'Balsamiq Sans', cursive;	
+	font-family: var(--font-primaria);
 }
 .titulo{
 	text-align: center;
@@ -149,12 +154,7 @@
 
 .section-html,.section-css,
 .section-js,.section-bootstrap{
-	/*display: flex;
-	flex-direction:row;
-	flex-wrap: wrap;*/
-	/*margin: 20px;*/
-/*	padding-top: 20px;*/
-	
+
 	justify-content: center;
 }
 
@@ -164,7 +164,6 @@
 
 
 .parteHtml,.parteJs,.parteBootstrap, .backEnd{
-	/*border:1px solid black;*/
 	display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;
@@ -172,7 +171,7 @@
 	justify-content: center;
 }
 .title-html{
-	font-family:'Balsamiq Sans', cursive;
+	font-family: var(--font-primaria);
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -180,7 +179,7 @@
 	text-align: center;
 }
 .title-css{
-	font-family:'Balsamiq Sans', cursive;
+	font-family: var(--font-primaria);
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 40px;
@@ -188,7 +187,7 @@
 	text-align: center;
 }
 .title-js{
-	font-family:'Balsamiq Sans', cursive;
+	font-family: var(--font-primaria);
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -196,7 +195,8 @@
 	text-align: center;
 }
 .title-bootstrap{
-	font-family:'Balsamiq Sans', cursive;
+
+	font-family: var(--font-primaria);
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -220,10 +220,11 @@
 	align-items: center;
 }
 .secao-localizacao,.secao-redes-sociais,.secao-marca{
-	/*border: 1px solid white;*/
+
 	margin: 10px;
 	padding: 20px;
-	font-family: 'Montserrat', Arial;
+
+	font-family: var(--font-primaria);
 	color: white;
 	text-align: center;
 	justify-content: center;
@@ -237,7 +238,7 @@
 .icone-social{
 	height: auto;
 	width: 40px;
-/*	padding: 10px;*/
+
 }
 .icone-localizacao{
 	display: none;
@@ -268,7 +269,8 @@
 	color: white;
 	text-align: center;
 	padding: 20px;
-	font-family: 'Montserrat', Arial
+
+	font-family: var(--font-primaria);
 }
 
 

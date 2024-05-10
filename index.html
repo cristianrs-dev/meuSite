@@ -4,12 +4,14 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/backEnd.css">
 		<link rel="stylesheet" href="css/responsividade.css">
 		<link rel="stylesheet" href="css/animation.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+		
 		<title>Meu Portifólio</title>
 	</head>
 	<body>
@@ -20,7 +22,8 @@
 				<div class="cabecalho-desktop">
 
 				<div class="logo-topo">
-					<img class="logo" src="img/trilha.png" alt="logotipo">
+					<!--<img class="logo" src="img/trilha.png" alt="logotipo">-->
+					<div class="logo" > &lt;CODERS ADACEMY/&gt; </div>
 				</div>
 				<nav>
 					<img onclick="openMenu()" class="icone-menu" src="img/menu.png" alt="icone_menu">
@@ -45,7 +48,7 @@
 		
 		
 	
-		<section class="banner">
+	<section class="banner">
 				<div class="perfil">
 					
 					<div class="titulo">
@@ -78,7 +81,7 @@
 					<a href="https://github.com/eclipseCJP"> <img class="icone-social" src="img/github-sign.png"> </a>
 				</div>
 				
-		</section>
+	</section>
 
 		
 		
@@ -97,38 +100,30 @@
 					</li>
 				  </ul>
 
-				<!-- Conteúdo das abas -->
+	<!--------------------------------------- SEÇÃO FRONT-ENT-------------------------------------------------------->
 		<div id="front-end" class="tab active">
-			<section class="section-html">
+			<section class="section-html" style=" text-decoration: none;" >
 
-				<div class="parteHtml">
-						<div class="card" style="width: 18rem;">
-							<img src="img/homePage.png" class="card-img-top" alt="frontHomePage">
-							<div class="card-body">
-								<h5 class="card-title">Meu portifólio</h5>
-								<p class="card-text">html, css, javaScript, Bootstrap onde são aplicados conceitos como display flex, uso de cards e position </p>
-								<a href="https://eclipsecjp.github.io/meuSite/" class="btn btn-primary">Visite a página</a>
-							</div>
-							
-						  </div>
-
+				<div class="parteHtml" >
+					<a class="tagA"   href="https://eclipsecjp.github.io/Pagina-de-Conteudo/">
 					  <div class="card" style="width: 18rem;">
 						<img src="img/post.png" class="card-img-top" alt="post">
 						<div class="card-body">
 						  <h5 class="card-title">Página de Conteúdos</h5>
 						  <p class="card-text">html e css onde são trabalhados conceitos básicos como parágrafos, margin e links</p>
-						  <a href="https://eclipsecjp.github.io/Pagina-de-Conteudo/" class="btn btn-primary">Visite a página</a>
 						</div>
-					  </div>
-
+						</div>
+					</a>
+					  
+					<a class="tagA" href="https://eclipsecjp.github.io/Landing-page/">
 					  <div class="card" style="width: 18rem;">
 							<img src="img/ladingPage.png" class="card-img-top" alt="lading page">
 							<div class="card-body">
 							<h5 class="card-title">Lading Page</h5>
 							<p class="card-text">Projeto baseado em html e css, com uso de formulário e regras de negócio para marketing digital integrado ao Mailchamp</p>
-							<a href="https://eclipsecjp.github.io/Landing-page/" class="btn btn-primary">Visite a página</a>
 							</div>
 						</div>
+					</a>
 				</div>
 
 			</section>
@@ -139,35 +134,37 @@
 				
 
 				<div class="parteJs">
-
-			
-
+					<a class="tagA" href="https://eclipsecjp.github.io/calculadora_IMC/">
 						<div class="card" style="width: 18rem">
 							<img src="img/calculadoraIMC.png" class="card-img-top" alt="calculadora imc">
 							<div class="card-body">
 								<h5 class="card-title">Calculadora I.M.C</h5>
 								<p class="card-text">Figma, html , css e javaScript com uso de formulário</p>
-								<a href="https://eclipsecjp.github.io/calculadora_IMC/" class="btn btn-primary">Visite a página</a>
+								
 							</div>
 						</div>
+					</a>
 	
+					<a class="tagA" href="https://eclipsecjp.github.io/Churrascometro/">
 						  <div class="card" style="width: 18rem;">
-							<img src="img/churrascometro.png" class="card-img-top" alt="churrascometro">
-							<div class="card-body">
-								<h5 class="card-title">Calculadora para churrasco</h5>
-								<p class="card-text">html, css, javascript Projeto baseado no ProgramadorBr </p>
-								<a href="https://eclipsecjp.github.io/Churrascometro/" class="btn btn-primary">Visite a página</a>
-							</div>
+								<img src="img/churrascometro.png" class="card-img-top" alt="churrascometro">
+								<div class="card-body">
+									<h5 class="card-title">Calculadora para churrasco</h5>
+									<p class="card-text">html, css, javascript Projeto baseado no ProgramadorBr </p>
+									
+								</div>
 						  </div>
-
+					</a>
+					
+					<a class="tagA" href="https://eclipsecjp.github.io/number-draw/">
 						<div class="card" style="width: 18rem;">
 							<img src="img/sortear.png" class="card-img-top" alt="futuro projeto">
 							<div class="card-body">
 								<h5 class="card-title">Sorteio</h5>
 								<p class="card-text">Bootstrap, js com conceitos Math.random e round </p>
-								<a href="https://eclipsecjp.github.io/number-draw/" class="btn btn-primary">Visite a página</a>
 							</div>
-						  </div>
+						</div>
+					</a>
 
 				</div>
 					
@@ -176,90 +173,81 @@
 			
 			<!-- ----------    SECAO BOOTSTRAP ----------   -->
 			<section class="section-bootstrap">
-				
-				<div class="parteBootstrap">
-					<div class="card" style="width: 18rem;">
-						<img src="img/calcImcBootstrap.png" class="card-img-top" alt="churrascometro">
-						<div class="card-body">
-						  <h5 class="card-title">Calculadora I.M.C</h5>
-						  <p class="card-text">Bootstrap, css e javaScript. um dos primeiros projetos pessoais</p>
-						  <a href="https://eclipsecjp.github.io/calculadora-imc-bootstrap/" class="btn btn-primary">Visite a página</a>
-					</div>
-				</div>
 
-				<div class="parteBootstrap">
-					<div class="card" style="width: 18rem;">
-						<img src="img/appPay.png" class="card-img-top" alt="appPay">
-						<div class="card-body">
-						  <h5 class="card-title">AppPay</h5>
-						  <p class="card-text">bootstrap, css, javaScript
-							validação de formulário com html 
-						  </p>
-						  <a href="https://eclipsecjp.github.io/appPay/" class="btn btn-primary">Visite a página</a>
+				<a class="tagA"  href="https://eclipsecjp.github.io/appPay/">
+					<div class="parteBootstrap">
+						<div class="card" style="width: 18rem;">
+							<img src="img/appPay.png" class="card-img-top" alt="appPay">
+							<div class="card-body">
+							<h5 class="card-title">AppPay</h5>
+							<p class="card-text">bootstrap, css, javaScript
+								validação de formulário com html 
+							</p>
+							
+						</div>
 					</div>
-				</div>
+				</a>
 
-				<div class="parteBootstrap">
-					<div class="card" style="width: 18rem;">
-						<img src="img/finance.png" class="card-img-top" alt="projeto no forno">
-						<div class="card-body">
-						  <h5 class="card-title">Projeto Bootstrap</h5>
-						  <p class="card-text">Projeto Pessoal: Figma, bootstrap, css e javaScript</p>
-						  <a href="https://eclipsecjp.github.io/ValorBanc" class="btn btn-primary">Visite a página</a>
+				<a class="tagA" href="https://eclipsecjp.github.io/ValorBanc">
+					<div class="parteBootstrap">
+						<div class="card" style="width: 18rem;">
+							<img src="img/finance.png" class="card-img-top" alt="projeto no forno">
+							<div class="card-body">
+							<h5 class="card-title">Projeto Bootstrap</h5>
+							<p class="card-text">Projeto Pessoal: Figma, bootstrap, css e javaScript</p>
+							
+						</div>
 					</div>
-				</div>
+				</a>
 			</section>
-			<!-- Conteúdo relacionado a HTML -->
+			
 		</div>
-	
+	<!------------------------------------- Conteúdo relacionado a HTML --------------------------------------------------->
 
-		<div id="back-end" class="tab backEnd">
-			<!-- Conteúdo relacionado a JavaScript -->
-			<div class="card" style="width: 18rem;">
-				<img src="img/CALC.gif" class="card-img-top" alt="animação-calculadora">
-				<div class="card-body">
-					<h5 class="card-title">Calculadora IMC em Java</h5>
-					<p class="card-text">Projeto pessoal desenvolvido em linguagem java e java swing containers </p>
-					<a href="img/ImcComFrame.jar" class="btn btn-primary">DEMO</a>
-				</div>
-				
-			</div>
 
-			  <div class="card" style="width: 18rem;">
-					<img src="img/projet1.0.gif" class="card-img-top" alt="animação-calculadora">
-					<div class="card-body">
-						<h5 class="card-title">Página de login</h5>
-						<p class="card-text">Projeto pessoal integrando Firebase Authentication em fase de desenvolvimento
-						</p>
-						<a href="https://eclipsecjp.github.io/autenticar/" class="btn btn-primary">Acesse a página</a>
+
+	<!------------------------------------------------ BACK-END ----------------------------------------------------------->
+		<div class="back">
+			<div id="back-end">
+					<div class="card" style="width: 18rem;">
+						<img src="img/CALC.gif" class="card-img-top" alt="animação-calculadora">
+						<div class="card-body">
+							<h5 class="card-title">Calculadora IMC em Java</h5>
+							<p class="card-text">Projeto pessoal desenvolvido em linguagem java e java swing containers </p>
+							<a href="img/ImcComFrame.jar" class="btn btn-primary">DEMO</a>
+						</div>
+						
 					</div>
-			  </div>
+		
+					  <div class="card" style="width: 18rem;">
+							<img src="img/projet1.0.gif" class="card-img-top" alt="animação-calculadora">
+							<div class="card-body">
+								<h5 class="card-title">Página de login</h5>
+								<p class="card-text">Projeto pessoal integrando Firebase Authentication em fase de desenvolvimento
+								</p>
+								<a href="https://eclipsecjp.github.io/autenticar/" class="btn btn-primary">Acesse a página</a>
+							</div>
+					  </div>
+			</div>
 		</div>
+		
+
+		<!------------------------------------------------ BACK-END ----------------------------------------------------------->
+
+
+
+		<!------------------------------------------------ CONTEUDO RELACIONADO A TESTES ----------------------------------------------------------->
 	
 		<div id="testes" class="tab">
 			<!-- Conteúdo relacionado a Bootstrap -->
-			<div class="modal" tabindex="-1">
-				<div class="modal-dialog">
-				  <div class="modal-content">
-					<div class="modal-header">
-					  <h5 class="modal-title">Em breve...</h5>
-					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-					  <p>Projetos no forno, em breve spoilers</p>
-					</div>
-					<div class="modal-footer">
-					  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					</div>
-				  </div>
-				</div>
-			  </div>
+			
 		</div>
 				
 				
-
+<!------------------------------------------------ TESTES ----------------------------------------------------------->
 				
 			</main>
+
 	
 		<div class="rodape">
 			<div class="secao-localizacao"><br>

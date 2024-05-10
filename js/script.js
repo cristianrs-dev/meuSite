@@ -46,3 +46,7 @@ abaTeste.addEventListener('click',function mostrarConteudo(){
     frontEnd.style.display='none'
     backEnd.style.display='none'
 })
+
+document.getElementById("teste").addEventListener("click",function(){
+    alert("projetos no forno")
+})
