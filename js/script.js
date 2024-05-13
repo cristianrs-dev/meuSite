@@ -9,44 +9,41 @@ function openMenu(){
         menu.style.display='block'
     }
 }
-//abas
-let abaFront = document.getElementById("front")
-let abaBack = document.getElementById("back")
-let abaTeste = document.getElementById("teste")
 
-//divs
-let frontEnd = document.getElementById("front-end")
-let backEnd = document.getElementById("back-end")
+let front = document.getElementById("front")
+let back = document.getElementById("back")
 let testes = document.getElementById("testes")
-backEnd.style.display='none'
-testes.style.display='none'
 
-abaFront.addEventListener('click',function mostrarConteudo(){
-    frontEnd.style.display='block'
-    backEnd.style.display='none'
+function mostrarConteudoFront(){
+    let front_end = document.getElementById("front-end")
+    let back_end = document.getElementById("back-end")
+    let testes = document.getElementById("tetes")
+    front_end.style.display='block'
+    back_end.style.display='none'
     testes.style.display='none'
-})
+    
 
-abaBack.addEventListener('click',function mostrarConteudo(){
-    abaBack.classList.add('active')
-    backEnd.style.display='block'
-    abaFront.classList.remove('active')
-    abaTeste.classList.remove('active')
-
-    frontEnd.style.display='none'
+}
+function mostrarConteudoBack(){
+    let front_end = document.getElementById("front-end")
+    let back_end = document.getElementById("back-end")
+    let testes = document.getElementById("tetes")
+    back_end.style.display='block'
+    front_end.style.display='none'
     testes.style.display='none'
-})
+    
+}
 
-abaTeste.addEventListener('click',function mostrarConteudo(){
-    abaTeste.classList.add('active')
+function mostrarConteudoTestes(){
+    let front_end = document.getElementById("front-end")
+    let back_end = document.getElementById("back-end")
+    let testes = document.getElementById("tetes")
+    testes.style.display='block'
+    front_end.style.display='none'
+    back_end.style.display='none'
+   
+}
 
-    abaFront.classList.remove('active')
-    abaBack.classList.remove('active')
-
-    frontEnd.style.display='none'
-    backEnd.style.display='none'
-})
-
-document.getElementById("teste").addEventListener("click",function(){
-    alert("projetos no forno")
-})
+front.addEventListener("click",mostrarConteudoFront)
+back.addEventListener("click",mostrarConteudoBack)
+testes.addEventListener("click",mostrarConteudoTestes)
